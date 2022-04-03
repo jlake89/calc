@@ -1,4 +1,3 @@
-
 // Business logic:
 
 function add(number1, number2) {
@@ -17,9 +16,8 @@ function divide(number1, number2) {
   return number1 / number2;
 }
 
+
 // Everything below this line is user interface logic:
-
-
 
 $(document).ready(function() {
   $("form#add").submit(function(event) {
